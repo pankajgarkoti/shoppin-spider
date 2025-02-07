@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "spider"
+version = "0.1.0"
+description = ""
+authors = ["Pankaj Garkoti <garkotipankaj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.13.3"
+requests = "^2.32.3"
+sqlmodel = "^0.0.22"
+aiohttp = "^3.11.12"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+mysql-connector-python = "^9.2.0"
+pymysql = "^1.1.1"
+mysql-connector = "^2.2.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
