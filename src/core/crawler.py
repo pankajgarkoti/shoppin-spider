@@ -36,7 +36,7 @@ class WebCrawler:
             "User-Agent": "Shoppin' Crawler",
             "From": "garkotipankaj@gmail.com",
         }
-        self.delay = 0.2
+        self.delay = 0.1
 
     def add_starting_urls(self, urls: list[str]):
         """Add multiple starting URLs to the queue."""
